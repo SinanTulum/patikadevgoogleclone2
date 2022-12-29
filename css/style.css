@@ -1,0 +1,185 @@
+.header{
+    width: 1800px;
+    float: left;
+    position: absolute;
+}
+.navleft{
+    float: left;
+    margin-left: 10px;
+    height: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.navright{
+    float: left;
+    margin-left: 92%;
+    height: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+#doticon{
+   width: 24px;
+   height: 24px;
+   margin-top: 0px;
+   margin-right: 3px;
+   margin-left: 3px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   margin-left: 15px;
+   margin-right: 7px;
+}
+.accountlogo{
+    width: 32px;
+    height: 32px;
+    border-radius: 60%;
+    margin-top: -4px;
+    margin-left: 15px;
+}
+.images{
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-right: 3px;
+    float: left;
+}
+.gmail{
+    margin-top: 0px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    float: left;
+}
+.about{
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-right: 3px;
+    float: left;
+}
+.store{
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    float: left;
+}
+.container{
+    width: 1000px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.google{
+    margin-top: 240px;
+    margin-bottom: 400px;
+    margin-left: 37%;
+    width: 272;
+    height: 92;
+}
+.leftlist{
+    height: 5px;
+    float: left;
+    margin-top: 130px;
+}
+.rightlist{
+    height: 5px;
+    float: right;
+    margin-left: 80%;
+    margin-top: -10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.leftlist li{
+    display: inline;
+    position: relative;
+}
+.rightlist li{
+    display: inline;
+    position: relative;
+}
+.searchengine{
+    width: 584px;
+    height: 46px;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: flex;
+    padding: 5px 8px 0 14px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-top: -40%;
+    margin-left: 20%;
+    border-radius: 30px;
+}
+.searchmachine{
+    width: 582px;
+    height: 44px;
+    border: 0px;
+    border-style: hidden;
+    border-color: red;
+    color: #004276;
+	text-decoration: none;
+}
+.searchmit{
+    width: 540px;
+    height: 34px;
+    border: 0px;
+    border-style: solid;
+    margin-left: 5%;
+}
+.searchmit:active{
+    border: 0px;
+    border-style: solid;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.searchicon{
+    width: 64px;
+    height: 64px;
+    margin-left: 0%;
+    margin-top: -4.5%;
+}
+.ftrcontainer{
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 5.5%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left :0;
+  text-align: center;
+  padding : 1rem;
+  background : #efefef;
+  font-size : 19px
+}
+.buttons{
+    margin-left: 22%;
+    margin-top: 0%;
+}
+.btn1:hover{
+    background-color: antiquewhite;
+}
+.btn2:hover{
+    background-color: antiquewhite;
+}
+.btn1{
+    height: 36px;
+    width: 122px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 3px;
+}
+.btn2{
+    height: 36px;
+    width: 200px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 3px;
+}
